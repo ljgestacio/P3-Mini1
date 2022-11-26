@@ -1,0 +1,117 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 18px 1fr 100px;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+    }
+    .container div{
+        padding: 1px;
+        border: 1px;
+    }
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-family: Georgia, serif;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    overflow: hidden;
+    background-color: rgb(56, 58, 58);
+    font-family: Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.topnav a:link {
+    text-decoration: none;
+    color:aliceblue;
+    padding: 20px;
+}
+
+.content1 {
+    text-align: center;
+    background-color: rgb(242, 243, 231);
+    font-family: Verdana, sans-serif;
+}
+#i1 {
+    align-items: center;
+    padding: 45px;
+}
+
+.content2 {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(237, 243, 232);
+    font-family: Verdana, sans-serif;
+}
+
+#i2 {
+    align-items: center;
+    padding: 45px;
+}
+
+.content3 {
+    text-align: center;
+    background-color: rgb(232, 236, 243);
+    font-family: Verdana, sans-serif;
+}
+#i3 {
+    align-items: center;
+    padding: 45px;
+}
+
+.content4 {
+    text-align: center;
+    background-color: rgb(243, 241, 232);
+    font-family: Verdana, sans-serif;
+}
+#i4 {
+    align-items: center;
+    padding: 45px;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    overflow: hidden;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(112, 112, 112);
+}
+
+.footer p1{
+    font-size: 12px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
+
+a {
+  color:aliceblue
+}
